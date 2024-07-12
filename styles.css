@@ -1,0 +1,11 @@
+/* selector{
+    key : values;
+ }
+  css syntax  */
+
+h2{
+    color: red;
+    border: 10px dotted color orange;
+    background-color: brown;
+
+}

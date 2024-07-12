@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.threecards{
+    display: flex;
+    gap: 10px; /* Adjust the gap value to control the spacing between cards */
+    padding: 20px;
+    justify-content: center;
+   
+
+}
+
+#ourservices{
+    color:  rgb(118, 206, 118);
+    margin-left: 200px;
+    
+    
+}
+
+
+

@@ -1,0 +1,55 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+
+#heading1{
+    color: brown;
+}
+
+.class1{
+    background-color: blueviolet;
+    border: 4px solid; 
+}
+
+
+/* group/multiple selectors uses multiple selectors */
+
+h1,p,#heading1,.class1 {
+    border: 1px solid; color: aquamarine;
+
+}
+
+
+
+
+/* child selector */
+
+#myItemList >{
+    border: 5px;
+}
+/* descendant selector */
+
+#myDivContainer a{
+    background-color: blue;
+}
+
+
+/* ascending sibling selector */
+
+
+#myItemList2 +p{
+    background-color: bisque;
+}
+
+/* sibling selector */
+
+
+#myItemList2 ~ p{
+    background-color: darkgoldenrod;
+
+}
